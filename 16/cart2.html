@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="css/shop.css" rel="stylesheet" type="text/css">
+<script src="../../DW/JS/jquery-1.12.2.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.del').click(function(){
+			$(this).parent().remove();
+		});
+		$('#sp2 i').click(function(){
+			$(this).toggleClass('ii');
+		});
+		$('#ad').click(function(){
+			if($('.add').css('display') == 'none'){
+				$(this).text("关闭收货地址");
+				$('.add').show();
+			}else{
+				$(this).text("添加收货地址");
+				$('.add').hide();
+			}
+		});
+	})
+</script>
+</head>
+<body>
+<div class="top_banner" style="background:url(images/common/images/banner_top_01.jpg) no-repeat center 0 #c8e7f1; height:60px"></div>
+<div class="top_nav or">
+	<p>您好，欢迎来到中土世界 !</p>
+    <ul>
+    	<li><a href="#">请登录</a></li>
+        <li><span></span></li>
+        <li><a href="#">快速注册</a></li>
+        <li><span></span></li>
+        <li><a href="#">我的世界<b></b></a></li>
+    </ul>
+    <ul>
+    	<li><a href="#">我的订单</a></li>
+        <li><span></span></li>
+        <li><a href="#">客户服务</a></li>
+        <li><span></span></li>
+        <li>关注我们 : <a href="#"><i></i>微博</a></li>
+        <li><a href="#"><i></i>微信</a></li>
+    </ul>
+    <div class="cl"></div>
+</div>
+<!--头部结束-->
+<div class="main">
+  <div class="logo">百分百纯净的购物之旅</div>
+  <div class="flow">
+    	<ul>
+        	<li class="on"><i>1</i>我的购物车</li>
+            <li class="on"><i>2</i>填写并核对订单信息</li>
+            <li><i>3</i>支付订单</li>
+        </ul>
+   </div>
+   <div class="adr">
+    	<h1>收货地址<a>管理我的收货地址</a></h1>
+        <div class="info1" id="sp2">
+        	<p>
+            	<span>陈政  18618819582</span>
+        		<span><i></i>身份证号：110158198405055214<b>编辑</b></span>
+            	<span>北京市海淀区学院路01号   100096</span>
+            </p>
+            <p>
+            	<span>陈政  18618819582</span>
+        		<span><i></i>身份证号：110158198405055214<b>编辑</b></span>
+            	<span>北京市海淀区学院路01号   100096</span>
+            </p>
+            <h2 id="ad">添加收货地址</h2>
+            <ul class="add">
+            	<li><em>收件人：</em><input type="text"><span>姓名要与身份证上的名字一致</span></li>
+                <li><em>电话：</em><input type="text"><span></span></li>
+                <li><em>身份证号：</em><input type="text"><span>身份证号务必真实，将涉及到您的货物是否可以通过海关</span></li>
+                <li><em>地址：</em><input type="text"><span></span></li>
+                <li><em>邮编：</em><input type="text"><span></span></li>
+                <li><input type="submit" value="确认添加"></li>
+            </ul>
+            </div>
+        </div>
+        <h1>送货时间</h1>
+        <div class="info2">
+        	<p><label><input type="checkbox">工作日、双休日、节假日均可送货</label></p>
+            <p><label><input type="checkbox">只有工作日送货</label></p>
+        </div>
+        <div class="info3">
+        <h1>确认订单信息</h1>
+        <table width="300" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="2" pad> 商品图片及名称</td>
+    <td width="258" align="center">单价(元)</td>
+    <td width="47" align="center"> 数量</td>
+    <td width="102" align="center">商品小计</td>
+    <td width="54" align="center">运费</td>
+    <td width="60" align="center">操作</td>
+  </tr>
+  <tr>
+    <td width="106" align="center"><span><a href="#" style="background:url(images/shop/images/img_03.jpg) center; width:48px; height:48px;"></a></span></td>
+    <td width="335"><p>康维他 强力蜂胶精PFL30不含酒精成分 25毫升</p></td>
+    <td align="center">￥50.00</td>
+    <td align="center">1</td>
+    <td align="center">￥50.00</td>
+    <td align="center">50.00</td>
+    <td align="center" class="del"><a>删除</a></td>
+  </tr>
+  <tr>
+    <td align="center"><span><a href="#" style="background:url(images/shop/images/img_03.jpg) center; width:48px; height:48px;"></a></span></td>
+    <td><p>康维他 强力蜂胶精PFL30不含酒精成分 25毫升</p></td>
+    <td align="center">￥50.00</td>
+    <td align="center">1</td>
+    <td align="center">￥50.00</td>
+    <td align="center">50.00</td>
+    <td align="center" class="del"><a>删除</a></td>
+  </tr>
+  <tr>
+   <td align="center"><span><a href="#" style="background:url(images/shop/images/img_03.jpg) center; width:48px; height:48px;"></a></span></td>
+    <td><p>康维他 强力蜂胶精PFL30不含酒精成分 25毫升</p></td>
+    <td align="center">￥50.00</td>
+    <td align="center">1</td>
+    <td align="center">￥50.00</td>
+    <td align="center">50.00</td>
+    <td align="center" class="del"><a>删除</a></td>
+  </tr>
+</table>
+   </div>
+	<div class="mt">
+		<p>商品合计：<span>￥629.00</span></p>
+		<input type="button" value="继续购物"><input type="submit" value="结算">
+    </div>
+</div>
+<div class="hot cl or">
+	<p>猜你喜欢</p>
+    <dl>
+        	<dt><a href="#"><img src="images/index/images/list_07.jpg"></a></dt>
+            <dd><a href="#">康维他 强力蜂胶精PFL30不含酒精成分</a></dd><dd><span>￥89.00</span> 已有52人购买</dd>
+        </dl>
+        <dl>
+        	<dt><a href="#"><img src="images/index/images/product_24(1).jpg"></a></dt>
+            <dd><a href="#">康维他 强力蜂胶精PFL30不含酒精成分</a></dd><dd><span>￥89.00</span> 已有52人购买</dd>
+        </dl>
+        <dl>
+        	<dt><a href="#"><img src="images/index/images/list_11_11.jpg"></a></dt>
+            <dd><a href="#">康维他 强力蜂胶精PFL30不含酒精成分</a></dd><dd><span>￥89.00</span> 已有52人购买</dd>
+        </dl>
+        <dl>
+        	<dt><a href="#"><img src="images/index/images/img_13(1).jpg"></a></dt>
+            <dd><a href="#">康维他 强力蜂胶精PFL30不含酒精成分</a></dd><dd><span>￥89.00</span> 已有52人购买</dd>
+        </dl>
+</div>
+<!--主体内容结束-->
+<iframe src="footer1.html" frameborder="0" scrolling="no" width="100%" height="519"></iframe>
+<!--尾部结束-->
+</body>
+</html>

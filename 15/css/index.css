@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+dt{margin:0; padding:0;}
+.main{ width:1000px; margin:0 auto;}
+.main .cot1{margin-top:60px;border-bottom:1px solid #e7eaef; margin-left:54px;}
+.main .cot1 dl dt{float:left; width:271px; height:186px;}
+.main .cot1 dl dd{float:right; width:630px;}
+.main .cot1 dl dd h1{margin-bottom:12px;}
+.main .cot1 dl dd h1 span{margin-left:6px;}
+.main .cot1 dl dd p{font-size:14px; color:#666; line-height:28px;}
+.main .cot1 dl dd p span{display:block; width:90px; line-height:28px; background-color:#1ab4c3; text-align:center; color:#fff; margin-top:9px;}
+.main .cot1 dl dd p span b{font-size:16px; margin-right:3px; border-radius:2px;}
+.main .cot1 dl dd p span:hover{background-color:#019ead; cursor:hand; cursor:pointer;}
+
+.main .cot2{ text-align:center; margin:70px 0 75px 60px;}
+.main .cot2 h1 span{display:block; margin-bottom:50px;}
+.main .cot2 dl{float:left; width:222px; margin-right:120px;}
+.main .cot2 dl h2{ line-height:26px; margin-top:10px;}
+.main .cot2 dl h2 a{font-size:18px; color:#2e2e2e; font-weight:normal;}
+.main .cot2 dl h2 a:hover{color:#1ab4c3;}
+.main .cot2 dl dd:nth-child(3){text-align:left; color:#666; line-height:22px;}
+.main .cot2 dl:nth-child(4){margin-right:0;}
+
+.main .cot3 {padding-top:50px; text-align:center; background:#f0f3f6; padding-bottom:115px;}
+.main .cot3 h1 span{display:block; margin-bottom:50px;} 
+.main .cot3 a{ float:left; display:block; position:relative; text-align:left; overflow:hidden;}
+.main .cot3 a:nth-child(2){ width:330px; height:380px;}
+.main .cot3 a:nth-child(2)~a{ width:335px; height:190px;}
+.main .cot3 a:nth-child(2):hover span{ background: linear-gradient(to top,rgba(102,103,104,0.7),rgba(0,0,0,0)); -webkit-linear-gradient(to top,rgba(102,103,104,0.7),rgba(0,0,0,0)); position:absolute; top:0; left:0; width:330px; height:380px; background-color:rgba(0,171,227,0.64);}
+.main .cot3 a p{font-size:22px; color:#fff; position:absolute; left:20px; bottom:-50px; line-height:26px; -webkit-transition:bottom 0.5s ease; -o-transition:bottom 0.5s ease; -moz-transition:bottom 0.5s ease;}
+.main .cot3 a p b{font-size:12px; display:block; font-weight:normal;}
+.main .cot3 a:nth-child(2)~a:hover span{ background: linear-gradient(to top,rgba(102,103,104,0.7),rgba(0,0,0,0)); -webkit-linear-gradient(to top,rgba(102,103,104,0.7),rgba(0,0,0,0)); position:absolute; top:0; left:0; width:335px; height:190px; background-color:rgba(0,181,153,0.82);}
+.main .cot3 a:hover > p{bottom:12px;}
+
+.main .cot4{position:relative; height:460px;}
+.main .cot4 h1{ margin-left:80px; margin-top:160px;}
+.main .cot4 p{ margin-left:80px; font-size:14px; color:#666; line-height:28px; width:522px;}
+.main .cot4 img{ position:absolute; right:60px; bottom:0;}

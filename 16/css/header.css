@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:0; font-family: "Microsoft YaHei";}
+html,body{font-size:12px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;  font-smoothing: antialiased; color:#555;}
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; }
+img{ border:none; outline:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#555; cursor:hand; cursor:pointer;}
+i{cursor:hand; cursor:pointer;}
+input:focus,textarea:focus,a:foucs{ outline:none;}
+input[type=button],input[type=submit]{cursor:hand; cursor:pointer; border-radius:4px;}
+.or{overflow:hidden;}
+.cl{clear:both; float:none;}
+
+.top_nav{width:1200px; margin:0 auto; padding:7px 0; line-height:16px;}
+.top_nav p{float:left; margin-right:12px;}
+.top_nav ul:nth-child(2){float:left;}
+.top_nav ul:nth-child(3){float:right;}
+.top_nav ul li{float:left;}
+.top_nav ul li span{width:1px; height:12px; background-color:#b2b2b2; display:block; margin:2px 14px 2px 14px;}
+.top_nav ul li b{display:inline-block; width:0; height:0; border-top:4px solid #000; border-left:4px solid transparent; border-right:4px solid transparent; margin-left:4px; margin-bottom:2px; cursor:hand; cursor:pointer;}
+.top_nav ul li:nth-last-child(2) i{background:url(../images/common/images/ico_03.png) no-repeat; width:18px; height:15px; display:inline-block; vertical-align:-2px; margin-right:2px;}
+.top_nav ul li:nth-last-child(1) i{background:url(../images/common/images/ico_05.png) no-repeat; width:18px; height:15px; display:inline-block; vertical-align:-3px; margin-right:2px; margin-left:14px;}
+.top_nav ul li a:hover{ text-decoration:underline;}
+
+.top_search{width:100%; background-color:#f35305;}
+.top_search .main{width:1200px; margin:0 auto;}
+.top_search .main .logo{background:url(../images/common/images/ico_10.png) no-repeat; height:50px; margin-top:24px; float:left; width:129px; margin-bottom:24px;}
+.top_search ul{float:right; line-height:36px; margin-top:31px;}
+.top_search .main p{float:left; font-size:16px; font-weight:lighter; color:#fff; line-height:36px; margin-top:31px; margin-left:8px;}
+.top_search .main ul li{ float:left; position:relative;}
+.top_search .main ul li a{font-size:18px; color:#fff; margin-left:52px;}
+.top_search .main ul li a:hover{ color:#fff1f1;}
+.top_search .main ul li:nth-last-child(1) a{display:block; width:124px; height:36px; background-color:#fff; text-align:center; color:#000; font-size:14px; border-radius:3px; -webkit-border-radius:3px; margin-left:36px;}
+.top_search .main ul li:nth-last-child(1) i{background:url(../images/common/images/ico_13.png) no-repeat; width:17px; height:17px; display:inline-block; margin-right:8px; vertical-align:-2px; }
+.top_search .main input{width:326px; border:0; height:36px; background-color:#fff; font-size:14px; padding:0 10px; margin-left:60px;}
+.top_search .main input::-webkit-input-placeholder {color:#556270;}
+.top_search .main input:-moz-placeholder{color:#556270;}
+.top_search .main input::-moz-placeholder{color:#556270;}
+.top_search .main input:-ms-input-placeholder{ color:#556270;}
+.top_search .main ul li:nth-last-child(1) a{color:#f35305;} 
+.top_search .main ul li:nth-last-child(2) i{background:url(../images/common/images/ico_16.png) no-repeat; width:15px; height:15px; position:absolute; right:14px; display:inline-block; top:10px;}

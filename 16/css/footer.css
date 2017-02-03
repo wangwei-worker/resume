@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:0; font-family: "Microsoft YaHei";}
+html,body{font-size:12px; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased;  font-smoothing: antialiased; color:#555;}
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; }
+img{ border:none; outline:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#555; cursor:hand; cursor:pointer;}
+i{cursor:hand; cursor:pointer;}
+input:focus,textarea:focus,a:foucs{ outline:none;}
+input[type=button]:hover{cursor:hand; cursor:pointer;}
+input[type=submit]:hover{cursor:hand; cursor:pointer;}
+.or{overflow:hidden;}
+.cl{clear:both; float:none;}
+
+.ft1{width:100%; background-color:#f4f4f4; padding-top:38px; padding-bottom:40px; margin-bottom:34px;}
+.ft1 .ft_ {width:1200px; margin:0 auto;}
+.ft1 .ft_ dl{float:left; margin-right:120px;}
+.ft1 .ft_ dl dt{float:left; margin-right:10px;}
+.ft1 .ft_ dl dt a{display:block; width:50px; height:50px;}
+.ft1 .ft_ dl dd{float:left; width:100px;}
+.ft1 .ft_ dl dd h2{font-size:18px; color:#404040; line-height:28px;}
+.ft1 .ft_ dl dd p{font-size:14px; color:#bfbfbf; line-height:22px;}
+.ft1 .ft_ dl:nth-child(1){margin-left:76px;}
+
+.ft2{width:1200px; margin:0 auto; text-align:center; padding-bottom:100px;}
+.ft2 ul{float:left; margin-right:140px; width:70px; margin-bottom:46px;}
+.ft2 ul:nth-child(1){margin-left:104px;}
+.ft2 ul h2{font-size:16px; font-weight:normal; line-height:24px; margin-bottom:8px;}
+.ft2 ul li{ list-style:disc; margin-left:16px;}
+.ft2 ul li a{ font-size:12px; line-height:24px;}
+.ft2 ul li a:hover{color:red;}
+.ft2 ul:nth-child(4){margin-right:-24px;}
+.ft2 .weibo_img{width:90px; height:90px; display:inline-block;}
+.ft2 .weixin_img{display:inline-block; width:92px; height:90px;}
+.ft2 p{ margin-top:10px;}

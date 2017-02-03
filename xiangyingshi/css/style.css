@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1220px){
+.tp{width:100%;}
+.tp ul li{ margin-left:32px;}
+.web_box{width:90%;}
+.web_box dl{width:30%; margin:20px 1.6%;}
+.web_box dl dt{width:90%; margin:0 5%;}
+.web_box .con dl{width:22%; margin:20px 1.5%;}
+.web_box .con1 dl{width:30%; margin:20px 1.6%;}
+.index_cha{width:100%;}
+.index_cha input[type=text]{width:50%;}
+.pingtai .main{width:100%}
+.pingtai .main1{width:40%; margin:0 5%;}
+.pingtai img{width:50%;}
+.pingtai input[type=button]{ height:30px; width:120px;}
+.index_case{width:100%;}
+.index_case dl{width:22.25%; margin-right:3.3%;}
+.hezuo .main{width:100%;}
+.hezuo .main .left{width:300px; margin:65px 0 0 40px;}
+.hezuo .main img{width:50%; margin:0 auto;}
+.footer_top .main{width:100%;}
+.footer_top .main h2{border-bottom:24px;}
+.footer_top .main a{margin:12px 12px;}
+.footer_bottom .main{width:100%;}
+
+.banner{height:510px;}
+.about{width:100%;}
+.about ul li{width:25%;}
+.about .word p{width:90%; margin-left:5%;}
+.about_web_box p{width:90%; margin-left:5%;}
+
+.job{width:100%;}
+.job img{margin-right:0; max-width:100%; width:10%;}
+.job .lie{width:40%; margin:0 0 0 5%;}
+.job .lie:nth-of-type(1){margin-right:0px;}
+}
+@media screen and (max-width:980px){
+.tp ul li{margin-left:16px;}
+.kehu ul{width:90%; margin:0 5%;}
+.kehu li input[type=text]{width:70%;}
+.kehu li p{width:70%;}
+.footer_top .main a{width:27%; margin:12px 1.5%;}
+
+}
+@media screen and (max-width:768px){
+.xiala{ width:31px; height:28px; position:absolute; right:10px; top:20px; display:block; cursor:pointer;}
+.tp ul{display:none; text-align:center; background:#fff; width:100%;}
+.tp ul li{float:none; margin:0; line-height:32px;}
+.tp ul li a{border:0; color:#000; padding:0;}
+.tp ul li a:hover{ color:#9465d2; border:0;}
+.tp .logo img{ width:150px; height:auto;}
+.web_box{padding:52px 0 60px 0;}
+.web_box dl{width:44%; margin:20px 3%;}
+.web_box dl img{height:100px;}
+.web_box .con dl{width:44%; margin:20px 3%;}
+.web_box .con1 dl{width:44%; margin:20px 3%;}
+
+.qua_flow h1{margin-bottom:54px;}
+.qua_flow img{display:none;}
+.qua_flow ul{display:block;}
+.qua_flow ul li{ width:30%; margin:20px 1.6%;}
+
+.banner{height:410px;}
+.about ul li{width:50%;}
+.about_web_box .con dl{width:40%; margin:20px 5%;}
+.biao2{padding:48px 0 60px 0;}
+.biao2 img{ width:80%; margin:20px 10%;}
+.about_d1{width:50%; margin:20px 20% 20px 30%; float:none; left:0px;}
+.about_d1:nth-child(2){ margin:20px 20% 20px 30%;}
+.his{margin-bottom:80px;}
+.his ul{background-image:none; width:90%; padding:0;}
+.his ul li{line-height:40px; border-bottom:1px solid #e9e9e9;}
+
+.job{margin-bottom:80px;}
+.job img{ float:none; width:140px;}
+.job .lie{width:90%; margin:0 5%; float:none;}
+
+.index_cha{height:340px;}
+.index_cha input[type=text]{height:40px;}
+.index_cha input[type=button]{width:10%; height:40px;}
+.pingtai .main{padding:48px 0 0 0;}
+.pingtai .main1{width:100%; margin:0; margin-bottom:60px;}
+.index_case h1{margin-top:48px;}	
+.index_case dl{width:47%; margin:0;}
+.index_case dl:nth-of-type(odd){ margin-right:6%;}
+.index_case a{margin:0 auto 49px auto;}
+.hezuo .main .left{width:80%; margin:0 10%;}
+.hezuo .main img{ margin:0 25%;}
+.kehu ul{width:100%; margin:0;}
+.kehu li p{width:80%; margin:0 10%;}
+.kehu li input[type=text]{width:50%;}
+.kehu li i{width:40%; margin:0;}
+.footer_bottom{text-align:center;}
+.footer_bottom span{float:none; display:block; margin:0;}
+
+}
+@media screen and (max-width:420px){
+.web_box{padding:26px 0 30px 0;}
+.web_box h1{color:#000; margin-top:52px; margin-bottom:29px;}
+.web_box dl{width:100%; float:none; margin:20px auto;}
+.web_box dl h2{ margin-top:8px; margin-bottom:10px;}
+.web_box dl dt{width:60%; margin:0 20%;}
+.web_box .con dl{width:100%; margin:20px auto;}
+.web_box .con dl dd{ font-size:18px; margin-top:10px;}
+.web_box .con1 dl{width:100%; margin:20px auto;}
+.web_box p:nth-of-type(1){ margin-top:44px;}
+
+.qua_flow{padding:29px 0 40px 0;}
+.qua_flow ul li{ width:44%; margin:20px 3%; font-size:16px;}
+
+.index_cha { height:220px;}
+.index_cha h1{ margin:55px auto 29px auto;}
+.index_cha input[type=text]{height:30px;}	
+.index_cha input[type=button]{ height:30px;}
+.pingtai .main1{width:100%; float:none;}
+.pingtai .main input{margin:22px auto 59px auto;}
+.index_case dl{width:100%; float:none; margin:0 auto;}
+.index_case dl img{width:80%;}
+.kehu{margin-bottom:43px;}
+.kehu h1{margin-top:48px;}
+.kehu .p{ margin-bottom:38px;}
+.kehu li{line-height:30px;}
+.kehu li i{width:80%; margin: 0 10%;}
+.kehu li input[type=text]{width:80%; margin:0 5%;}
+.kehu li input[type=submit]{width:40%; margin:0 30%;}
+.footer_top{ padding:20px 0;}
+.footer_top h2{margin:24px auto;}
+
+.banner{height:300px;}
+.about_web_box .con dl{width:80%; margin:20px 10%;}
+.about_d1{width:80%; float:none;}
+.his ul li a{}
+.his ul li p{ display:block; line-height:24px;}
+}
+

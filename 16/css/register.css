@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.top_nav{width:980px; margin:0 auto; padding:7px 0; line-height:16px;}
+.top_nav p{float:left; margin-right:12px;}
+.top_nav ul:nth-child(2){float:left;}
+.top_nav ul:nth-child(3){float:right;}
+.top_nav ul li{float:left;}
+.top_nav ul li span{width:1px; height:12px; background-color:#b2b2b2; display:block; margin:2px 14px 2px 14px;}
+.top_nav ul li b{display:inline-block; width:0; height:0; border-top:4px solid #000; border-left:4px solid transparent; border-right:4px solid transparent; margin-left:4px; margin-bottom:2px; cursor:hand; cursor:pointer;}
+.top_nav ul li:nth-last-child(2) i{background:url(../images/common/images/ico_03.png) no-repeat; width:18px; height:15px; display:inline-block; vertical-align:-2px; margin-right:2px;}
+.top_nav ul li:nth-last-child(1) i{background:url(../images/common/images/ico_05.png) no-repeat; width:18px; height:15px; display:inline-block; vertical-align:-3px; margin-right:2px; margin-left:14px;}
+.top_nav ul li a:hover{ text-decoration:underline;}
+
+.main{width:980px; margin:30px auto 0 auto;}
+.logo{background:url(../images/login/images/logo_03.png) no-repeat; line-height:50px; font-size:16px; color:#f35305; padding-left:134px; height:50px; margin-bottom:35px;}
+.reg{width:928px; height:574px; border:1px solid #d7d7d7; background-color:#fafafa; box-shadow:2px 2px 8px rgba(11,3,6,0.08); padding-left:48px; margin-bottom:100px; position:relative;}
+.reg input{border-radius:4px; -webkit-border-radius:4px;}
+.reg h1{font-size:18px; color:#000; line-height:60px; margin-top:28px; margin-bottom:26px;}
+.reg li{position:relative;}
+.reg li span{display:inline-block; width:70px; line-height:38px; text-align:right; margin-right:4px; color:#000;}
+.reg li input{width:270px; height:36px; border:solid 1px #dadada; background-color:#fcfcfc; padding:0 5px; margin-bottom:20px;}
+.reg li span i{background:url(../images/login/images/reg_03.png); width:6px; height:6px; display:inline-block; margin-right:5px; vertical-align:1px;}
+.reg li:nth-of-type(5) input{width:112px;}
+.reg li:nth-of-type(5) img{background:url(../images/login/images/img_03.png); width:88px; height:31px; position:relative; left:8px; top:10px;}
+.reg li:nth-of-type(5) a{color:#226ab3; position:absolute; bottom:22px; margin-left:20px;}
+.reg li:nth-of-type(5) a:hover{color:#03C;}
+.reg li:nth-of-type(5){position:relative;}
+.reg label{margin-left:74px; color:#000; display:block; margin-bottom:20px;}
+.reg label input{margin-right:6px;}
+.reg input[type=submit]{width:140px; height:40px; border:1px solid #e73c00; font-size:18px; color:#fff; background:url(../images/login/images/btn_03.jpg) repeat-x; margin-left:74px;}
+.reg input[type=submit]:hover{background-color:#dd4b04; background-image:none;}
+.reg .right{width:339px; height:205px; border-left:1px solid #e1e1e1; padding-left:20px; position:absolute; top:114px; right:0;}
+.reg p{margin-bottom:22px;}
+.reg p:nth-child(1) i{display:inline-block; margin:0 2px; vertical-align:-3px;}
+.reg p:nth-child(1) a{margin-right:5px;}
+.reg p:nth-child(1) a:hover{color:#226ab3;}
+.reg p:nth-child(2) a{color:#226ab3;}
+.reg p:nth-child(2) a:hover{color:red;}
+
+label.error{color:red; display:inline-block; margin-left:10px;}

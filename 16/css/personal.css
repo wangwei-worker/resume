@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.con{width:1200px; margin:0 auto 80px auto;}
+.con .p1{ line-height:18px; margin-top:8px; margin-bottom:12px; color:#858585;}
+.con .p1 a{font-size:12px;color:#858585;}
+.con .p1 a:hover{color:#000;}
+.per_left{width:198px; float:left; border:1px solid #e4e4e4; border-top:0; height:449px;}
+.per_left h1{font-size:14px; color:#000; line-height:37px; padding-left:28px; background-color:#f8f8f8; border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e4e4; font-weight:normal;}
+.per_left li{line-height:40px; color:#000;}
+.per_left i{ border-left:6px solid #c3c3c3; border-top:5px solid transparent;border-bottom:5px solid transparent; display:inline-block; margin-left:30px; margin-right:10px;}
+.per_left li a:hover{ color:#f35305;}
+
+.per_right{width:990px; float:right; overflow:hidden; border:1px solid #e4e4e4;}
+.per_right h1{font-size:16px; font-weight:normal; line-height:37px; background-color:#f8f8f8; padding-left:28px; width:960px;}
+.per_right .p{padding-left:28px; color:#000; line-height:38px; background-color:#f8f8f8; width:962px;}
+table{border-top:1px solid #e4e4e4; color:#000; border-bottom:1px solid #e4e4e4;}
+table span{display:table-cell; width:68px; height:68px; border:1px solid #e6e4e3; vertical-align:middle; margin-left:20px;}
+table a{display:block; font-size:14px; color:#000;}
+table a:hover{color:blue;}
+table .btn1{width:78px; height:26px; background:url(../images/shop/images/btn_bg_05.jpg) repeat-x; border:1px solid #e73c00; display:block; color:#fff; margin-bottom:5px;}
+table .btn2{width:78px; height:26px; background:url(../images/product/images/btn_03.jpg) repeat-x; border:1px solid #bababa; display:block;}
+table .btn3{width:60px; height:28px; display:block; background:url(../images/product/images/btn_03.jpg) repeat-x; border:1px solid #bababa;}
+table .btn1:hover{background-image:none; background:#fd5115;}
+table .btn2:hover{background-image:none; background-color:#c9c6c6;}
+table .btn3:hover{background-image:none; background-color:#c9c6c6;}
+
+.page{margin-top:30px; line-height:30px; margin-bottom:26px; text-align:center;}
+.page span{ height:26px; padding:1px; border:1px solid #e4e4e4; margin-right:10px; color:#000; cursor:hand; cursor:pointer; line-height:30px; display:inline-block; width:26px; background-color:#f8f8f8; font-weight:bold;}
+.page .on{background-color:#f35305; padding:0; color:#fff; border:0;}
+.page .btn{width:56px;}
+
+.info1{width:988px; border:1px solid #e6e4e3; float:right;}
+.info1 h1{font-size:16px; font-weight:normal; line-height:37px; background-color:#f8f8f8; padding-left:28px; width:960px; border-bottom:1px solid #e6e4e3;}
+.info1 p{width:868px; padding:16px 40px; background-color:#f0f0f0; margin:20px 20px 0 20px; color:#000; line-height:22px;}
+.info1 p span{ display:block; position:relative;}
+.info1 p i{position:absolute; left:-20px; top:6px; width:12px; height:12px; display:block; background:url(../images/shop/images/ico_06.png) no-repeat;}
+.info1 p .ii{background:url(../images/shop/images/check_03.png) no-repeat;}
+.info1 h2 {margin:16px 20px; font-weight:normal; color:#f35305; font-size:14px; cursor:pointer; cursor:hand;}
+.info1 p b:nth-of-type(1){position:absolute; right:32px; font-weight:normal;}
+.info1 p b:hover{color:#f35305; cursor:pointer;}
+.info1 p b:nth-of-type(2){position:absolute; right:2px; font-weight:normal;}
+.info1 .add{height:233px; padding:19px 0 24px 28px; border:1px solid #e6e4e3; width:921; margin:0 20px 20px 20px; background-color:#f8f8f8; color:#000; line-height:30px; display:block;}
+.info1 .add li span{color:rgba(0,0,0,0.6);}
+.info1 .add li input[type=text]{margin:0 12px 10px 6px; height:28px; width:220px; border:1px solid #e6e4e3;}
+.info1 .add li input[type=text]:nth-of-type(4){width:508px;}
+.info1 .add li em{font-style:normal; width:60px; text-align:right; display:inline-block;}
+.info1 .add li input[type=submit]{width:98px; height:32px; border:1px solid #e73c00; background:url(../images/shop/images/btn_bg_05.jpg) repeat-x; margin-left:66px; color:#fff;}
+.info1 .add li input[type=submit]:hover{background-image:none; background:#fd5115;}
+
+.fav{width:988px; margin:0 auto; float:right; border:1px solid #e6e4e3;}
+.fav h1{font-size:16px; font-weight:normal; line-height:37px; background-color:#f8f8f8; padding-left:28px; width:960px; border-bottom:1px solid #e6e4e3;}
+.fav table td{border-bottom:1px solid #e6e4e3;}
+.fav table{border:0;}
+.fav table td:nth-last-child(1):hover{ color:red; cursor:pointer;}
+
+.page{margin-top:30px; line-height:30px; margin-bottom:50px; text-align:center;}
+.page span{ height:26px; padding:1px; border:1px solid #e4e4e4; margin-right:10px; color:#000; cursor:hand; cursor:pointer; line-height:30px; display:inline-block; width:26px; background-color:#f8f8f8;}
+.page .on{background-color:#f35305; padding:0; color:#fff; border:0;}
+.page .btn{width:56px;}
+
+.sug{width:988px; margin:0 auto; float:right; border:1px solid #e6e4e3;}
+.sug h1{font-size:16px; font-weight:normal; line-height:37px; background-color:#f8f8f8; padding-left:28px; width:960px; border-bottom:1px solid #e6e4e3;}
+.sug .ma1{height:96px; border-bottom:1px solid #e6e4e3; padding:28px 48px;}
+.sug .ma1 span{color:#999; font-size:10px; display:block; margin-bottom:6px;}
+.sug .ma1 p:nth-of-type(1){color:#000; font-size:14px; margin-bottom:16px;}
+.sug .ma1 p:nth-of-type(2){font-size:16px; color:#f35305;}
+
+
+.ziliao{width:988px; margin:0 auto; float:right; border:1px solid #e6e4e3; height:698px;}
+.ziliao h1{font-size:16px; font-weight:normal; line-height:37px; background-color:#f8f8f8; padding-left:28px; width:960px; border-bottom:1px solid #e6e4e3;}
+.ziliao ul{margin-left:118px; margin-top:50px;}
+.ziliao li{line-height:38px; margin-bottom:18px;}
+.ziliao li p{display:inline-block; margin-right:6px; width:90px; text-align:right; color:#000; font-size:14px;}
+.ziliao li input[type=text]{width:270px; height:36px; border:1px solid #e6e4e3; margin-right:14px; color:#000; padding:0 5px;}
+.ziliao li span{color:#999;}
+.ziliao li i{background:url(../images/shop/images/ico_06.png) no-repeat; width:12px; height:12px; display:inline-block; margin-right:8px; vertical-align:-2px;}
+.ziliao li i:nth-of-type(2){margin-left:25px;}
+.ziliao li input[type=submit]{width:100px; height:32px; background:url(../images/shop/images/btn_bg_05.jpg) repeat-x; border:1px solid #e73c00; color:#fff; font-size:14px; margin-left:96px;}
+.ziliao li input[type=submit]:hover{background-image:none; background:#fd5115;}
+

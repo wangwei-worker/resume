@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.goodness{padding:90px 0 58px 0; text-align:center;}
+.goodness h1{margin-bottom:60px; color:#444;}
+.goodness .con{width:1200px; margin:0px auto;}
+.goodness .list{float:left; width:270px; margin:20px 40px 20px 0; overflow:hidden;}
+.goodness .list:nth-child(4){margin-right:0;}
+.goodness .list dl{ overflow:hidden; margin-bottom:10px;}
+.goodness .list dd h2{font-size:20px; line-height:30px; margin:11px 0; color:#444; font-weight:normal;}
+.goodness .list dd{ line-height:24px; color:#666; height:108px;}
+.goodness .txt{ height:360px; background-color:#f7f7f7;}
+.goodness .txt h3{width:100%; background-color:#ffa84a; line-height:40px; font-size:16px; font-weight:normal;}
+.goodness .list:nth-child(1) h3{background-color:#06c290;}
+.goodness .list:nth-child(2) h3{background-color:#34a1ea;}
+.goodness .list:nth-child(4) h3{background-color:#ff8960;}
+.goodness .txt li strong{font-weight:normal; font-size:16px; color:#444; margin:28px 0 22px 0; display:block;}
+.goodness .txt li p{line-height:24px; color:#666; width:84%; margin:0 auto; font-size:12px;}
+.goodness p{font-size:14px; color:#666; margin-top:60px;}
+.goodness p i{background:url(../images/phone_03.png) no-repeat; width:26px; height:18px; display:inline-block; vertical-align:-3px; margin-right:5px;}
+.goodness p span{font-size:20px; color:#34a1ea;}
+
+@media screen and (max-width:1220px){
+.tp{width:100%;}
+.tp ul li{ margin-left:32px;}
+
+.goodness .con{width:100%;}
+.goodness .list{ width:30%; margin:20px 10%;}
+.footer_top .main{width:100%;}
+.footer_top .main h2{border-bottom:24px;}
+.footer_top .main a{margin:12px 12px;}
+.footer_bottom .main{width:80%; margin:0 10%;}
+}
+@media screen and (max-width:980px){
+.tp ul li{margin-left:16px;}
+
+.goodness .list{ width:40%; margin:20px 5%;}
+
+.footer_top .main a{width:27%; margin:12px 1.5%;}
+}
+@media screen and (max-width:768px){
+.xiala{ width:31px; height:28px; position:absolute; right:10px; top:20px; display:block; cursor:pointer;}
+.tp ul{display:none; text-align:center; background:#fff; width:100%;}
+.tp ul li{float:none; margin:0; line-height:32px;}
+.tp ul li a{border:0; color:#000; padding:0;}
+.tp ul li a:hover{ color:#9465d2; border:0;}
+.tp .logo img{ width:150px; height:auto;}
+
+.goodness .list .txt{ height:330px;}
+
+.footer_bottom{text-align:center; padding:29px 0;}
+.footer_bottom span{float:none; display:block; margin:0; line-height:32px;}
+}
+@media screen and (max-width:420px){
+.goodness .list{ width:70%; margin:20px 15%;}
+
+.footer_top{ padding:20px 0;}
+.footer_top h2{margin:24px auto;}
+}
+
+

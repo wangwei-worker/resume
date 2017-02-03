@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:1200px; margin:0 auto;}
+.main p:nth-child(1){margin-top:10px;}
+.main p:nth-child(1) a{color:#858585;}
+.main p:nth-child(1) a:hover{color:#000;}
+.main .banner{width:1200px; height:400px; margin-top:15px;}
+
+.list dl{width:283px; height:312px; border:1px solid #ebebeb; background-color:#fff; float:left; margin-right:20px; margin-top:20px;}
+.list dl dt{ height:172px; display:table-cell; vertical-align:middle; width:283px; text-align:center; position:relative;}
+.list dl dt span{display:block; width:254px; border:1px dashed #d6d6d6; bottom:0; left:10px; position:absolute; height:0;}
+.list dl dd:nth-of-type(1){margin-top:18px;}
+.list dl dd{color:#525252; margin-top:7px; margin-left:20px;}
+.list dl dd a{font-size:14px; color:#525252;}
+.list dl dd a:hover{color:#00c4c4;}
+.list dl dd span{font-size:16px; color:#f35305; margin-right:10px;}
+.list dl input{margin-top:12px; width:75px; height:25px; border:1px solid #c7c7c7; background:url(../images/product/images/btn_03.jpg) repeat-x; color:#000; display:block; margin:12px auto;}
+.list dl input:hover{background-color:#dcdcdc; background-image:none;}
+.list dl:nth-of-type(4n){margin-right:0;}
+
+.page{margin-top:30px; line-height:30px; margin-bottom:50px; text-align:center;}
+.page span{ height:26px; padding:1px; border:1px solid #e4e4e4; margin-right:10px; color:#000; cursor:hand; cursor:pointer; line-height:30px; display:inline-block; width:26px; background-color:#f8f8f8; font-weight:bold;}
+.page .on{background-color:#f35305; padding:0; color:#fff; border:0;}
+.page .btn{width:56px; font-weight:normal;}

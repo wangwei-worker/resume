@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="../../DW/JS/jquery-1.12.2.min.js"></script>
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="css/shop.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	window.onload = function(){
+		$(function(){
+			$('#sp2 p').bind('click',function(){
+				$(this).find('i').toggleClass('io');
+			})
+		})
+	}
+</script>
+</head>
+<body>
+<div class="top_banner" style="background:url(images/common/images/banner_top_01.jpg) no-repeat center 0 #c8e7f1; height:60px"></div>
+<div class="top_nav or">
+	<p>您好，欢迎来到中土世界 !</p>
+    <ul>
+    	<li><a href="#">请登录</a></li>
+        <li><span></span></li>
+        <li><a href="#">快速注册</a></li>
+        <li><span></span></li>
+        <li><a href="#">我的世界<b></b></a></li>
+    </ul>
+    <ul>
+    	<li><a href="#">我的订单</a></li>
+        <li><span></span></li>
+        <li><a href="#">客户服务</a></li>
+        <li><span></span></li>
+        <li>关注我们 : <a href="#"><i></i>微博</a></li>
+        <li><a href="#"><i></i>微信</a></li>
+    </ul>
+    <div class="cl"></div>
+</div>
+<!--头部结束-->
+<div class="main">
+	<div class="logo">百分百纯净的购物之旅</div>
+    <div class="flow">
+    	<ul>
+        	<li class="on"><i>1</i>我的购物车</li>
+        	<li class="on"><i>2</i>填写并核对订单信息</li>
+        	<li class="on"><i>3</i>支付订单</li>
+    	</ul>
+   	</div>
+    <div class="sp">
+   		<h1>订单信息</h1>
+   		<div class="sp1">
+        	<p>3件商品</p><p>商品合计：<span>¥629.00</span></p>
+        </div>
+   		<h1>支付</h1>
+   		<div class="sp2" id="sp2">
+   			<h2>支付宝</h2>
+            <p><i></i><b><img src="images/shop/images/bank_03.jpg"></b></p>
+   			<h2>网银付款</h2>
+            <p><i></i><b><img src="images/shop/images/bank_07.jpg"><span></span></b></p>
+            <p><i></i><b><img src="images/shop/images/bank_09.jpg"><span></span></b></p>
+            <p><i></i><b><img src="images/shop/images/bank_11.jpg"><span></span></b></p>
+            <p><i></i><b><img src="images/shop/images/bank_16.jpg"><span></span></b></p>
+            <p><i></i><b><img src="images/shop/images/bank_17.jpg"><span></span></b></p>
+            <p><i></i><b><img src="images/shop/images/bank_18.jpg"><span></span></b></p>
+            <p class="cl"><i style="background:url(images/shop/images/ico_09.jpg)"></i>选择其他银行</p>
+    	</div>
+        <input type="button" value="去支付">
+    </div>
+</div>
+<!--主体内容结束-->
+<iframe src="footer1.html" frameborder="0" scrolling="no" width="100%" height="519"></iframe>
+<!--尾部结束-->
+</body>
+</html>
